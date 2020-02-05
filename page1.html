@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>first page</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="C:\Users\Ashu\Desktop\projec\css\page 1.css">
+	<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	 <script type="text/javascript" src="C:\Users\Ashu\Desktop\projec\js\page1.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</head>
+<body>
+	<style type="text/css">
+					a:link,a:visited{
+						text-decoration: none;
+						color: white;
+					}
+					a:hover{
+						color:orange;
+					}
+				</style>
+	<div class="website">
+			<div class="xfirst">
+				<div class="second">
+					<h1>LuciferHomes</h1>
+					<h3>The home you desire</h3>
+				</div>
+			<div class="third">
+				<li id="xthird">Home</li>
+				<li><a href="file:///C:/Users/Ashu/Desktop/projec/About%20Us.html">About Us</a></li>
+				<li><a href="file:///C:/Users/Ashu/Desktop/projec/t&c.html">Terms & Conditions</a></li>
+				<li><a href="file:///C:/Users/Ashu/Desktop/projec/contact%20us.html">Contact Us</a></li>
+			</div>
+		</div>
+		<div class="first">
+			<div class="dropdown">
+  				<div class="dropdown">
+  				<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    			Select city
+				  </button>
+				  <div class="dropdown-menu" aria-labelledby="dropdownMenu">
+				    <button class="dropdown-item" type="button">Bangalore</button>
+				    <button class="dropdown-item" type="button">Mysore</button>
+				    <button class="dropdown-item" type="button">Gokarna</button>
+				  </div>
+				  <script type="text/javascript">
+				  	function GetSelectedValue(){
+				var e = document.getElementById("dropdownMenu2");
+				var result = e.options[e.selectedIndex].value;
+				
+				document.getElementById("result").innerHTML = result;
+			}
+
+			function GetSelectedText(){
+				var e = document.getElementById("dropdownMenu2");
+				var result = e.options[e.selectedIndex].text;
+				
+				document.getElementById("result").innerHTML = result;
+			}
+				  </script>
+    		<a href="file:///C:/Users/Ashu/Desktop/projec/page2.html"><button type="button" class="btn btn-primary">Login</button>
+			<a href="file:///C:/Users/Ashu/Desktop/projec/page2%20half.html"><button type="button" class="btn btn-success">Sign up</button>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

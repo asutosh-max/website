@@ -1,0 +1,55 @@
+body{
+	background-image: linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.65)),url(../image/ashu2.jpg);
+	background-size:100%;
+	background-position:cover;
+	height: 100vh;
+	transition: 500ms all ease-out;
+}
+.first{
+	width: 340px;
+	padding: 25% 0;
+	margin:auto;
+
+}
+.website{
+	width:100%; 
+	height:150px;
+	background-color: rgba(0,0,0,0.65);
+}
+.second{
+	width: 50%;
+	float: left;
+	height: 150px;
+}
+.a{
+	text-decoration: none;
+}
+.second h1{
+	padding-left: 70px;
+	color:#ffffff;
+	font-size: 52px;
+	font-family: Montserrat;
+}
+.second h3{
+	color: #fff;
+	margin-top: 1px;
+	padding-left: 200px;
+}
+.third{
+	margin-left: 10px;
+}
+.third li{
+	display: inline-block;
+	margin-left: 40px;
+	color: white;
+	font-family: Montserrat;
+	margin-top: 100px;
+	font-weight: bold;
+	margin-right: 30px;
+}
+#xthird{
+	color: orange;
+}
+.third li:hover{
+	color: orange;
+}

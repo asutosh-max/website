@@ -1,0 +1,73 @@
+body{
+	background-image: linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.65)),url('../image/asu.jpg');
+	background-size:100%;
+	background-position:cover;
+	height: 100vh;
+	transition: 500ms all ease-out;
+}
+body.translate{
+	background-size:0%;
+}
+.login-page{
+	width: 340px;
+	padding: 5% 0 0;
+	margin:auto;
+}
+.form{
+	position:relative;
+	z-index:2; 
+	background:#3498;
+	max-width: 360px;
+	margin: 0 auto 100px;
+	padding:10px;
+	text-align: justify;
+}
+.form input{
+	font-family: "roboto",cursive;
+	background:#fff;
+	width: 100%;
+	border: 100%;
+	margin:0 0 10px;
+	padding: 10px;
+	box-sizing: border-box;
+	font-size:12px;
+}
+.form input[type=radio]{
+	width: auto;
+}
+.form button{
+	font-family:"roboto",serif;
+	text-transform:uppercase;
+	outline: 0;
+	background:#4caf50;
+	width:100%;
+	border:0%;
+	padding:7px;
+	color:#ffffff;
+	font-size: 11px;
+	cursor:pointer;
+}
+.form button:hover,.form button:active{
+	background: #43a047;
+}
+.form .message{
+	margin:10px 0 0;
+	color:aliceblue;
+	font-size: 14px;
+}
+.form .message a{
+	color:#4caf50;
+	text-decoration:none;
+}
+.form .registration-form{
+	display: none;
+
+}
+.form label{
+	color: white;
+	font-family: "robo", cursive;
+}
+.form .color{
+	color: white;
+	font-family: cursive;
+}

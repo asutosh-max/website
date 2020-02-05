@@ -1,0 +1,86 @@
+body
+{
+  margin: 0;
+  padding:0;
+  background: #262626;
+  font-family: cursive; 
+}
+.container
+{
+  width: 1400px;
+  height: 900px;
+  background:linear-gradient(0deg,#33ADFF,#bbb,#FF0000);  
+  margin:70px auto 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+
+}
+.container .box{
+  position: relative;
+  width: 300px;
+  height:400px;
+  background: #ffff00; 
+  margin:10px;
+  margin-right: 40px;
+  box-sizing: border-box;
+  display: block;
+}
+.container .box .img{
+  position: relative;
+  overflow: hidden;
+}
+.container .box .img img{
+    width: 100%;
+    transition: transform 2s;
+
+
+}
+.container .box:hover .img img
+{
+  transform: scale(1.2);
+}
+.container .box .details{
+  position: absolute;
+  top:10px;
+  left:10px;
+  bottom: 10px;
+  right: 10px;
+  background: rgba(0,0,0,.8); 
+  transform: scaleY(0);
+  transition: transform .5s;
+  } 
+  .container .box:hover .details{
+    transform: scale(1);
+  }
+  .container .box .details .content
+  {
+    position: absolute;
+    top:50%;
+    left:10px; 
+    transform: translateY(-50%);
+    text-align: center;
+    padding: 15px;
+    color: #fff;
+  }
+  .container .box .details .content h2
+  {
+    margin:0;
+    padding: 0;
+    font-size: 20px;
+    color: blue;
+  }
+  .container .box .details .content p
+  {
+    margin:10px 0 0;
+    padding: 0;
+    color: yellow;
+  }
+  .font{
+    color: yellow;
+    margin-top: 30px;
+    padding-left: 0;
+  }
+  .font h3{
+    padding-left: 180px;
+  }
